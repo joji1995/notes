@@ -22,7 +22,7 @@ conf t
 
 EIGRP (Enhanced Interior Gateway Routing Protocol)
 -best dynamic routing protocol
--administrative distance
+-administrative distance 90
 -Cisco Proprietary (Only works on Cisco Devices)
 EIGRP States: Hello > Query > Update > Received > Acknowledge
 
@@ -49,6 +49,21 @@ BGP Routing (Border Gateway Protocol)
 BGP Messages
 (NOKU Packets: Notification, Open, Keep-Alive, Update)
 clear ip bgp * soft !updates BGP Advertisements upon modification of BGP Attributes
+
+Route Redistribution
+(by default, different routing protocols cannot get along each other)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
