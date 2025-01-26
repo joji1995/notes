@@ -46,7 +46,9 @@ BGP Routing (Border Gateway Protocol)
 - Mostly used for Wide Area Network (WAN)
 - Also used by ISPs and Large Corporations 
 
-
+BGP Messages
+(NOKU Packets: Notification, Open, Keep-Alive, Update)
+clear ip bgp * soft !updates BGP Advertisements upon modification of BGP Attributes
 
 
 
