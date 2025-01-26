@@ -16,6 +16,7 @@ conf t
  ip routing
  end
 
+======================================================================
 
 !Dynamic Routing (EIGRP - OSPF - BGP)
 
@@ -23,6 +24,8 @@ EIGRP (Enhanced Interior Gateway Routing Protocol)
 -best dynamic routing protocol
 -administrative distance
 -Cisco Proprietary (Only works on Cisco Devices)
+EIGRP States: Hello > Query > Update > Received > Acknowledge
+
 
 command:
 show ip protocols = to know Autonomous System Number (AS Number)
@@ -35,7 +38,7 @@ OSPF Routing
 - Link State Advertisement
 - Implements Dijkstra Algorith
 - Advertised by AREA (Area 0 is the Backbone)
-
+OSPF StatesL Down > Init(Initialized) > Two-way EXSTART > EXCHANGE > LOADING > FULL 
 
 
 
