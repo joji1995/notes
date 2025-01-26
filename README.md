@@ -33,7 +33,7 @@ show ip protocols = to know Autonomous System Number (AS Number)
 
 =====================================================================
 
-OSPF Routing
+OSPF Routing (Open Short Path First )
 - Multi Vendor Dynamic Routing Protocol
 - Link State Advertisement
 - Implements Dijkstra Algorith
@@ -41,8 +41,10 @@ OSPF Routing
 OSPF StatesL Down > Init(Initialized) > Two-way EXSTART > EXCHANGE > LOADING > FULL 
 
 
-
-
+==============================================================
+BGP Routing (Border Gateway Protocol)
+- Mostly used for Wide Area Network (WAN)
+- Also used by ISPs and Large Corporations 
 
 
 
