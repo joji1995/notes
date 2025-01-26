@@ -24,6 +24,19 @@ EIGRP (Enhanced Interior Gateway Routing Protocol)
 -administrative distance
 -Cisco Proprietary (Only works on Cisco Devices)
 
+command:
+show ip protocols = to know Autonomous System Number (AS Number)
+
+
+=====================================================================
+
+OSPF Routing
+- Multi Vendor Dynamic Routing Protocol
+- Link State Advertisement
+- Implements Dijkstra Algorith
+- Advertised by AREA (Area 0 is the Backbone)
+
+
 
 
 
