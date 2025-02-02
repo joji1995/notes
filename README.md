@@ -55,13 +55,30 @@ Route Redistribution
 
 
 
+**************************************************************************************************
+DAY 4
+Task 1:  Fundamentals of Network/
+
+Physical layer = Bits
+
+V - Voltage
+I - Interface
+T - Transmission
 
 
 
-
-
-
-
+OSI Layer
+Application 7 - Data "Bytes"
+Presentation 6 - Data Format (File Format) (Ex. jpeg, gif, img)
+Session 5 - Data Stream
+Transport 4 - Segment (source port and destination port)
+Network 3 - Packets (source ip and destionation ip)
+Data Link 2 - Frames 
+Physical 1 - Bits
+3 Ways for transmission
+1. Fiber Optic
+2. Radiofrequency
+3. Electrical 
 
 
 
